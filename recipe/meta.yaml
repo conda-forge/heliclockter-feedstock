@@ -1,5 +1,5 @@
 {% set name = "heliclockter" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heliclockter-{{ version }}.tar.gz
-  sha256: 5c3e8df570c79f6e2329d949dfb5ed1872b183948136227fc7154bc8e38da3d4
+  sha256: 3c30d6d1d42d5af1809f95a95fea1b25d210bc556f27c69a43e46aac989bd360
 
 build:
   noarch: python
