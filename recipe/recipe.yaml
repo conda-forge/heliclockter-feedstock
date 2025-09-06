@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: heliclockter
-  version: 2.0.0
+  version: "2.1.0"
   python_min: 3.10
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/heliclockter-${{ version }}.tar.gz
-  sha256: d7204ffdffb06a5abc1685a498ed44dd3e26ac0bd7e5b6829d307ea30498d57b
+  sha256: 6eeaf88aaa1054c0227f351684b28b6cd7810f0708c31abac36e10c1352109b9
 
 build:
   number: 0
